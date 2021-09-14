@@ -1,17 +1,9 @@
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.util.InvalidPropertiesFormatException;
 
 public class ParserTest {
-
-    private Parser parser;
-
-    @Before
-    public void setup() {
-        parser = new Parser();
-    }
 
     @Test
     public void parseOperatorTestPlus() throws InvalidPropertiesFormatException {

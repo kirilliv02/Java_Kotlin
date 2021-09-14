@@ -10,13 +10,6 @@ import java.util.InvalidPropertiesFormatException;
 public class MainTest {
 
     private final ByteArrayOutputStream output = new ByteArrayOutputStream();
-    private Main main;
-
-    @Before
-    public void setup() {
-        main = new Main();
-    }
-
 
     @Before
     public void setUpStreams() {
