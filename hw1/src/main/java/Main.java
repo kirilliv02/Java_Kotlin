@@ -10,6 +10,4 @@ public class Main {
 
         System.out.println("Result is " + Calculator.calculate(val1, operator, val2));
     }
-
-
 }

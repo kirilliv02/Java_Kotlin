@@ -26,6 +26,5 @@ public class Parser {
         if (args.length != 3) {
             throw new InvalidPropertiesFormatException("Args format is: val1 +-/* val2");
         }
-
     }
 }
