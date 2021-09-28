@@ -2,7 +2,12 @@ import java.util.InvalidPropertiesFormatException;
 
 public class Parser {
     static String parseOperatorOrError(String operator) throws InvalidPropertiesFormatException {
-        if ("+".equals(operator) || "-".equals(operator) || "*".equals(operator) || "/".equals(operator)) {
+        if ("+".equals(operator) ||
+                "-".equals(operator) ||
+                "*".equals(operator) ||
+                "/".equals(operator)
+        ) {
+
             return operator;
         }
         throw new InvalidPropertiesFormatException("Operator is not supported");
