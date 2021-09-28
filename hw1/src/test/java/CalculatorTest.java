@@ -4,7 +4,7 @@ import org.junit.Test;
 public class CalculatorTest {
 
     @Test
-    public void Sum_2Plus5_7Returned() {
+    public void calc_2Plus5_7Returned() {
         var res = Calculator.calculate(2, "+", 5);
         Assert.assertEquals(7, res);
     }
