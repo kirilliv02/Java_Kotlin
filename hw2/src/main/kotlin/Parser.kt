@@ -10,10 +10,14 @@ class Parser {
     }
 
     fun parseOperatorOrError(operator: String): String {
-        if ("+" == operator || "-" == operator || "*" == operator || "/" == operator) {
-            return operator
+        return when (operator) {
+            "+" -> operator
+            "-" -> operator
+            "*" -> operator
+            "/" -> operator
+            else -> throw InvalidPropertiesFormatException("Operator is not supported")
         }
-        throw InvalidPropertiesFormatException("Operator is not supported")
+
     }
 
     fun countOfArgumentsChecker(args: Array<String>) {
