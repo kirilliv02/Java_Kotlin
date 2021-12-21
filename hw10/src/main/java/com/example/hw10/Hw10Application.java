@@ -1,13 +1,13 @@
-package com.example.calcdemo;
+package com.example.hw10;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalcDemoApplication {
+public class Hw10Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CalcDemoApplication.class, args);
+        SpringApplication.run(Hw10Application.class, args);
     }
 
 }
